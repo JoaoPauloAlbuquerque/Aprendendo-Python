@@ -5,6 +5,6 @@
 import math
 
 n = float(input('Digite um ângulo: '))
-print(f'Seno: {math.sin(n)}')
-print(f'Cosseno: {math.cos(n)}')
-print(f'Tangente: {math.tan(n)}')
+print(f'Seno: {math.sin(math.radians(n)):.2f}')
+print(f'Cosseno: {math.cos(math.radians(n)):.2f}')
+print(f'Tangente: {math.tan(math.radians(n)):.2f}')

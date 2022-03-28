@@ -2,8 +2,7 @@
 # e do cateto adjacente de um triângulo retângulo,
 # calcule e mostre a o comprimento da hipotenusa.
 
-import math
-
+from math import hypot
 co = float(input('Cateto oposto: '))
 ca = float(input('Cateto adjacente: '))
-print(f'Hipotenusa vale: {math.hypot(ca, co)}')
+print(f'Hipotenusa vale: {hypot(ca, co):.2f}')
