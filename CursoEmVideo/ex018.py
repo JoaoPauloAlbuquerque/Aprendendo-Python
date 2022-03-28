@@ -2,9 +2,9 @@
 # e mostre na tela o valor do seno, cosseno e
 # e tangente desse ângulo.
 
-import math
+from math import sin, cos, tan, radians
 
 n = float(input('Digite um ângulo: '))
-print(f'Seno: {math.sin(math.radians(n)):.2f}')
-print(f'Cosseno: {math.cos(math.radians(n)):.2f}')
-print(f'Tangente: {math.tan(math.radians(n)):.2f}')
+print(f'Seno: {sin(radians(n)):.2f}')
+print(f'Cosseno: {cos(radians(n)):.2f}')
+print(f'Tangente: {tan(radians(n)):.2f}')
