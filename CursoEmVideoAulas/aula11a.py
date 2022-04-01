@@ -8,7 +8,7 @@
 # 7 - negative
 
 # TEXTO:
-# 30 = branco
+# 30 = preto
 # 31 = vermelho
 # 32 = verde
 # 33 = amarelo
@@ -16,9 +16,10 @@
 # 34 = magenta
 # 36 = ciano
 # 37 = cinza
+# 97 = branco
 
 # BACKGROUND:
-# 40 = branco
+# 40 = preto
 # 41 = vermelho
 # 42 = verde
 # 43 = amarelo
@@ -26,6 +27,7 @@
 # 44 = magenta
 # 46 = ciano
 # 47 = cinza
+# 107 = branco
 
 print('\033[0;34;47mOlá mundo!\033[m')  # Este "\033[m" no final reseta a configuração no final do texto
 
