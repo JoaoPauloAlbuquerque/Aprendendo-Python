@@ -1,7 +1,7 @@
 # Crie um programa que faça o computador jogar jokenpô com você.
 
 from random import choice
-
+from time import sleep
 o = [
     'pedra',
     'papel',
@@ -13,6 +13,11 @@ print(f'Oções: {o}')
 print('=' * 40)
 s = str(input('Escolha: '))
 e = choice(o)
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PÔ')
 if e == o[2] and s == o[0]:
     print(f'computador: {e}')
     print('Você ganhou!')

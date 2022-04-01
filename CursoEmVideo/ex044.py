@@ -6,9 +6,7 @@
 # 3x ou mais no cartão: 20% de juros.
 
 preco = float(input('Qual o preço do produto: '))
-print('=-' * 20)
-print('Formas de pagamento')
-print('=-' * 20)
+print(f'{"Formas de pagamento":=^40}')
 print('1 - avista dinheiro/cheque')
 print('2 - avista cartão')
 print('3 - em 2x no cartão')

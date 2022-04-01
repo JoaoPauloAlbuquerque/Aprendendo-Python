@@ -34,4 +34,12 @@ print('João' in s)
 # Mostra a posição onde começa a palavra dentro da string.
 print(s.find('João'))
 # Divide a frase em cada palavra, formando assim, uma lista.
-print(s.split())
+lista = s.split()
+print(lista)
+# Juntoando as palavras novamente
+juntoComEspaco = ' '.join(lista)
+print(f'Junto com espaço: {juntoComEspaco}')
+juntoSemEspaco = ''.join(lista)
+print(f'Junto sem espaço: {juntoSemEspaco}')
+juntoEspecial = '*'.join(lista)
+print(f'Junto especial: {juntoEspecial}')
