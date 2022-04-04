@@ -5,9 +5,11 @@ lista = (
     'pudin'
 )
 print(lista[::-1])
+
 print('-' * 30)
 for comida in lista:
     print(f'{comida}')
+
 print('-' * 30)
 # Se não quizer usar o for com range()
 # Da pra usar o enumerate() para pegar a posição da lista
